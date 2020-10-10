@@ -40,3 +40,7 @@ am_components
         total: 0,
         current: 1
     },
+
+
+# select
+## am-depart-selector-v3
