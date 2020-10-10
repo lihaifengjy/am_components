@@ -52,15 +52,15 @@ am_components
 ## am-workteam-selector-v3
 
 # am-ctrl-textarea
-  <am-ctrl-textarea :data.sync="" :enabled=""></am-ctrl-textarea>
-  参数: line: Boolean,
+    <am-ctrl-textarea :data.sync="" :enabled=""></am-ctrl-textarea>
+     参数: line: Boolean,
         fullscreen: Boolean
         enabled: Boolean,
         data:String
 
 # am-ctrl-datetime
-  <am-ctrl-datetime type=""  :data.sync=""  :enabled=""></am-ctrl-datetime>
-  参数：type: String(year/month/date/dates/week/datetime/datetimerange/daterange/monthrange)
+    <am-ctrl-datetime type=""  :data.sync=""  :enabled=""></am-ctrl-datetime>
+    参数：type: String(year/month/date/dates/week/datetime/datetimerange/daterange/monthrange)
         data: String(year/month/date/week/datetime) || Array(dates/datetimerange/daterange/monthrange)
         formatDateTime: Function
         enabled: Boolean,
