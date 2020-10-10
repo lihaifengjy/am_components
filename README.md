@@ -44,3 +44,24 @@ am_components
 
 # select
 ## am-depart-selector-v3
+## am-external-team-employee-chooser-v3
+## am-inner-team-chooser-v3
+## am-inner-team-employee-chooser-v3
+## am-person-selector-v3
+## am-ticket-manager-chooser-v3
+## am-workteam-selector-v3
+
+# am-ctrl-textarea
+  <am-ctrl-textarea :data.sync="" :enabled=""></am-ctrl-textarea>
+  参数: line: Boolean,
+        fullscreen: Boolean
+        enabled: Boolean,
+        data:String
+
+# am-ctrl-datetime
+  <am-ctrl-datetime type=""  :data.sync=""  :enabled=""></am-ctrl-datetime>
+  参数：type: String(year/month/date/dates/week/datetime/datetimerange/daterange/monthrange)
+        data: String(year/month/date/week/datetime) || Array(dates/datetimerange/daterange/monthrange)
+        formatDateTime: Function
+        enabled: Boolean,
+        其他属性参照el datepicker属性和方法
